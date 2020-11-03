@@ -4,6 +4,11 @@ import numpy as np
 import sys
 import pandas as pd
 
+__author__ = "Thu Nguyen"
+__copyright__ = "Copyright (C) 2020 Thu Nguyen"
+__license__ = "LGPL 2.1"
+__version__ = "1.0"
+
 def cell_plot(input_csv, cluster=True):
     df = pd.read_csv(input_csv, header=None, usecols=[0,2,3], names=['a', 'c', 'cluster'])
     if not cluster:
