@@ -2,6 +2,12 @@ The folder contains two main python files for color-coded data analysis.
 - Ellipsoid.py generates the dendrogram and coordinate variation ellipsoid
 - Cellcluster.py generates scatter plot for cell-based cluster visuallization
 
+author: "Thu Nguyen"
+copyright: "Copyright (C) 2020 Thu Nguyen"
+license: "LGPL 2.1"
+version: "1.0"
+
 The files: cctable.dat, CLUSTERS.txt, manual_coordinate_146.txt are inputs of ellipsoid.py. Here we use height cutoff at 1.0 to get the output of the paper
 The files: cell_base.cvs is the input of cellcluster.py
 The program runs with python 3.8
+

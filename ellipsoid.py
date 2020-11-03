@@ -15,6 +15,11 @@ import scipy.cluster.hierarchy as sch
 import math
 import sys
 
+__author__ = "Thu Nguyen"
+__copyright__ = "Copyright (C) 2020 Thu Nguyen"
+__license__ = "LGPL 2.1"
+__version__ = "1.0"
+
 class Ellipsoid:
 	def __init__(self): pass
 
